@@ -86,3 +86,80 @@
 
 * C function that returns a pointer to the uncle of a given node in a binary tree.
 * Returns NULL if no uncle is found.
+
+19. Lowest common ancestor:
+
+* C function that returns a pointer to the lowest common ancestor node of two given nodes in a binary tree.
+* Returns NULL if no common ancestor is found.
+
+20. Level-order traversal:
+
+* C function that traverses a binary tree using level-order traversal.
+
+21. Is complete:
+
+* C function that checks if a binary tree is complete.
+* Returns 1 if the tree is complete, 0 otherwise.
+
+22. Rotate Left:
+
+* C function that performs a left-rotation on a binary tree.
+* Returns a pointer to the new root node of the tree after rotation.
+
+23. Rotate Right:
+
+* C function that performs a right-rotation on a binary tree.
+* Returns a pointer to the new root node of the tree after rotation.
+
+24. Is BST:
+
+* C function that checks if a binary tree is a valid binary search tree.
+* Returns 1 if the tree is a valid BST, 0 otherwise.
+
+25. BST- Insert:
+
+* C function that inserts a value into a binary search tree.
+* Returns a pointer to the new node, or NULL on failure.
+* If the tree is NULL, the value becomes the root node.
+* The value is ignored if it is already present in the tree.
+
+26. BST - Array to BST:
+
+* C function that builds a binary search tree from an array.
+* Returns a pointer to the root node of the created tree, or NULL on failure.
+
+27. BST - Search:
+
+* C function that searches for a value in a binary search tree.
+* If the value is matched in the BST, returns a pointer to the matched node.
+* Otherwise, returns NULL.
+
+28. BST - Remove:
+
+* C function that removes a node from a binary search tree.
+* Returns a pointer to the new root node of the tree after deletion.
+* If the node to be deleted has two children, it is replaced with its first in-order successor.
+
+29. Big O #BST:
+
+* Text file containing the average time complexities of binary search tree operations (one answer per line):
+* Inserting the value n.
+* Removing the node with the value n.
+* Searching for a node in a BST of size n.
+
+36. Is Binary heap:
+
+37. Heap - Insert:
+
+38. Heap - Array to Binary Heap:
+
+39. Heap - Extract:
+
+40. Heap - Sort:
+
+41. Big O #Binary Heap:
+
+* Text file containing the average time complexities of binary heap opeartions (one answer per line):
+* Inserting the value n.
+* Extracting the root node.
+* Searching for a node in a binary heap of size n.
